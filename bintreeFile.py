@@ -36,7 +36,7 @@ def putta(root, value): # Tar in rot för binärt träd samt värde att lägga t
 
 
 def finns(root, value):   # Tar in rot för binärt träd samt värde att söka efter
-    # Binärsök i trädet efter value, kan göras rekursivt
+    # Binärsök i trädet efter value, rekursivt
     if root == None:
         return False
     else:
